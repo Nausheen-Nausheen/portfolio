@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+    <!--     navbar start     -->
+    <nav id="navbar" class="nav">
+        <ul id="nav-list">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+    <!--     navbar end     -->
+
+    <!--   welcome section start -->
+
+    <section id="welcome-section" class="welcome-section">
+        <h1 id="introduction">Hey I am Nausheen</h1>
+        <p id="field">A Frontend Developer</p>
+    </section>
+    
+     <!--   welcome section end -->
+
+     <!-- project section start -->
+
+     <section id="projects" classs="project-section">
+
+        <h2 class="projects-header-section">Some of my projects</h2>
+
+        <div class="projects-grid">
+
+            <a href="https://github.com/Nausheen-Nausheen/survey-form" target="_blank" alt="survey form project"><img class="project-image" src="survey_form.img.jpeg" alt="view">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Survey Form
+                    <span class="code">/></span>
+                </p>
+            </a>
+
+            <a href="https://github.com/Nausheen-Nausheen/tribute-page" target="_blank" alt="tribute page project"><img class="project-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_OxPKqrj8XrY_nIAsWlPGF1UFcYh72ubKw&usqp=CAU" alt="view">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Tribute Page
+                    <span class="code">/></span>
+                </p>
+            </a>
+
+            <a href="https://github.com/Nausheen-Nausheen/technical-documentation-page" target="_blank" alt="technical documental page project"><img class="project-image" src="data:image/png;base64,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" alt="view">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Technical Documentation Page
+                    <span class="code">/></span>
+                </p>
+            </a>
+
+            <a href="https://github.com/Nausheen-Nausheen/product-landing-page" target="_blank" alt="product-landing-page project"><img class="project-image" src="https://cdn-icons-png.flaticon.com/512/4129/4129528.png" alt="view">
+                <p class="project-title  project-tile">
+                    <span class="code">&lt;</span>
+                        Product Landing Page
+                    <span class="code">/></span>
+                </p>
+            </a>
+
+            <a href="https://github.com/Nausheen-Nausheen/Amazon_Clone" target="_blank" alt="Amazon clone project"><img class="project-image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/amazon-icon.png" alt="view">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Amazon Clone
+                    <span class="code">/></span>
+                </p>
+            </a>
+
+            <a href="https://github.com/Nausheen-Nausheen/tic-tac-toe" target="_blank" alt="tic-tac-toe project"><img class="project-image" src="https://thumbs.dreamstime.com/b/farmer-play-tic-tac-toe-flat-design-farmer-play-tic-tac-toe-flat-design-illustration-192817430.jpg" alt="view">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Tic Tac Toe
+                    <span class="code">/></span>
+                </p>
+            </a>
+
+        </div>
+     </section>
+     <!--     project section end -->
+     
+     <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+        </div>
+        <div class="contact-links">
+            <a id="profile-link" href="https://github.com/Nausheen-Nausheen" target="_blank" class="button contact-details"><i class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:nausheen4852naseem@gmail.com" class="button contact-details"><i class="fas fa-at"></i> Email me</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>This is personal portfolio webpage containing projects from 'Responsive Web Design' course at <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">freeCodeCamp.org</p>
+    </footer>
+
+</body>
+</html>
+
